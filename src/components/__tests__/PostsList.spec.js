@@ -27,6 +27,6 @@ describe('PostsList.vue', () => {
 
     // Verificamos que los posts simulados se renderizan en el DOM
     expect(wrapper.text()).toContain('First Post')
-    expect(wrapper.text()).toContain('Segundo Post')
+    expect(wrapper.text()).toContain('Second Post')
   })
 })
